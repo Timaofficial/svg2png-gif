@@ -1,0 +1,11 @@
+name = "svg2png-gif"
+main = "src/index.js"
+compatibility_date = "2024-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[browser]
+binding = "BROWSER"
+
+[vars]
+ALLOWED_ORIGINS = "*"
+MAX_SVG_BYTES = "1048576"
